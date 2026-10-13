@@ -13,7 +13,7 @@ TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=0
 AllowPortNetNames=0
-AllowSheetEntryNetNames=1
+AllowSheetEntryNetNames=0
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
 DefaultConfiguration=Sources
@@ -32,6 +32,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
+ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
@@ -84,23 +85,6 @@ GenerateClassCluster=0
 DocumentUniqueId=GVTSYOHF
 
 [Document3]
-DocumentPath=SCH\FP_Connectors.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=39
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EZLIUZWI
-
-[Document4]
 DocumentPath=SCH\EEM_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +101,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VGBTAUBO
 
-[Document5]
+[Document4]
 DocumentPath=SCH\EEM_Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +118,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document5]
 DocumentPath=SCH\CPCIS_Connectors_P1_P6.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -151,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RMUUFYQV
 
-[Document7]
+[Document6]
 DocumentPath=SCH\CPCIS_Connectors_P1_P6.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,7 +152,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document7]
 DocumentPath=PCB\Sampler_DIOT.PCBDOC
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -185,7 +169,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MEKABQKL
 
-[Document9]
+[Document8]
 DocumentPath=SCH\Sampler_DIOT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -202,24 +186,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EXWNFARM
 
-[Document10]
-DocumentPath=SCH\I2C_switch.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=45
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XDLJFZMU
-
-[Document11]
+[Document9]
 DocumentPath=SCH\Temperature_monitoring.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +203,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PPRYFJRL
 
-[Document12]
+[Document10]
 DocumentPath=SCH\Temperature_monitoring.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +220,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document11]
 DocumentPath=SCH\Power-up_delay.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FQPYMIKH
 
-[Document14]
+[Document12]
 DocumentPath=SCH\DIOT_signal_routing.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WRBYEAMI
 
-[Document15]
+[Document13]
 DocumentPath=SCH\DIOT_signal_routing.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,7 +271,58 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document14]
+DocumentPath=SCH\Mechanical.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=34
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JTXOSLGX
+
+[Document15]
+DocumentPath=SCH\I2C_switch.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=45
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XDLJFZMU
+
 [Document16]
+DocumentPath=SCH\FP_Connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=39
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EZLIUZWI
+
+[Document17]
 DocumentPath=SCH\Input_channel.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -321,7 +339,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UIOUZCSB
 
-[Document17]
+[Document18]
 DocumentPath=SCH\ADC_8CH.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -338,7 +356,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZHEQLCGG
 
-[Document18]
+[Document19]
 DocumentPath=SCH\Drivers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -355,7 +373,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SSWGIMFT
 
-[Document19]
+[Document20]
 DocumentPath=SCH\Drivers.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -371,23 +389,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document20]
-DocumentPath=SCH\Mechanical.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=34
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JTXOSLGX
 
 [Document21]
 DocumentPath=SCH\Power_main_DCDC.SchDoc
@@ -407,23 +408,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EBXBSCMW
 
 [Document22]
-DocumentPath=SCH\I2C_switch.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document23]
 DocumentPath=Sampler.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -440,7 +424,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document23]
 DocumentPath=SCH\LEDs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -457,14 +441,48 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VCSNVNVK
 
+[Document24]
+DocumentPath=Sampler.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HKQUQIGI
+
+[Document25]
+DocumentPath=SCH\I2C_switch.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
-UniqueID=A2FB463C-E379-4070-9A11-B2A9E4752451
+UniqueId=A2FB463C-E379-4070-9A11-B2A9E4752451
 Description=EEM
 AllowFabrication=0
 ParameterCount=0
 VariationCount=86
-Variation1=Designator=T_J4|UniqueId=\RTXBABPE\LIDFICHD|Kind=1|AlternatePart= 
-Variation2=Designator=T_J5|UniqueId=\RTXBABPE\HQYQOTEN|Kind=1|AlternatePart= 
+Variation1=Designator=T_J4|UniqueId=\RTXBABPE\LIDFICHD|Kind=1|AlternatePart=
+Variation2=Designator=T_J5|UniqueId=\RTXBABPE\HQYQOTEN|Kind=1|AlternatePart=
 Variation3=Designator=T_R2|UniqueId=\TAKSADSN\EZQFAHGR|Kind=1|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=T_R2
@@ -549,7 +567,7 @@ ParamDesignator27=T_R62
 Variation30=Designator=T_R63|UniqueId=\RTXBABPE\FAOCJAEQ\VRQNEEPG|Kind=1|AlternatePart==Value
 ParamVariation28=ParameterName=Comment|VariantValue==Value
 ParamDesignator28=T_R63
-Variation31=Designator=T_R26|UniqueId=\YQRJPEFU\TSKLTSUH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\Maciek\OneDrive\Technosystem\cernlib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=R0805_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC2012X60N|AltLibLink_IsSameFootprint=True
+Variation31=Designator=T_R26|UniqueId=\YQRJPEFU\TSKLTSUH|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\Maciek\OneDrive\Technosystem\cernlib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0805_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC2012X60N|AltLibLink_IsSameFootprint=True
 ParamVariation29=ParameterName=Comment|VariantValue==Value
 ParamDesignator29=T_R26
 ParamVariation30=ParameterName=Case|VariantValue=0805
@@ -568,7 +586,7 @@ ParamVariation36=ParameterName=Footprint|VariantValue=RESC2012X60N
 ParamDesignator36=T_R26
 ParamVariation37=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0805_NIC_NRC.pdf
 ParamDesignator37=T_R26
-ParamVariation38=ParameterName=Ibis Model|VariantValue= 
+ParamVariation38=ParameterName=Ibis Model|VariantValue=
 ParamDesignator38=T_R26
 ParamVariation39=ParameterName=LatestRevisionDate|VariantValue=13.03.2008
 ParamDesignator39=T_R26
@@ -590,19 +608,19 @@ ParamVariation47=ParameterName=Part Description|VariantValue=2A (0.05R Max DC Re
 ParamDesignator47=T_R26
 ParamVariation48=ParameterName=Part Number|VariantValue=R0805_0R_JUMPER
 ParamDesignator48=T_R26
-ParamVariation49=ParameterName=PCB3D|VariantValue= 
+ParamVariation49=ParameterName=PCB3D|VariantValue=
 ParamDesignator49=T_R26
 ParamVariation50=ParameterName=Pin Count|VariantValue=2
 ParamDesignator50=T_R26
-ParamVariation51=ParameterName=Pin Info|VariantValue= 
+ParamVariation51=ParameterName=Pin Info|VariantValue=
 ParamDesignator51=T_R26
 ParamVariation52=ParameterName=PressFit|VariantValue=No
 ParamDesignator52=T_R26
 ParamVariation53=ParameterName=Sense|VariantValue=No
 ParamDesignator53=T_R26
-ParamVariation54=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation54=ParameterName=Signal Integrity|VariantValue=
 ParamDesignator54=T_R26
-ParamVariation55=ParameterName=Simulation|VariantValue= 
+ParamVariation55=ParameterName=Simulation|VariantValue=
 ParamDesignator55=T_R26
 ParamVariation56=ParameterName=SMD|VariantValue=Yes
 ParamDesignator56=T_R26
@@ -696,24 +714,24 @@ ParamDesignator86=R56
 Variation59=Designator=R86|UniqueId=\LBNIEXTI\RMGTSDLV|Kind=1|AlternatePart==Value
 ParamVariation87=ParameterName=Comment|VariantValue==Value
 ParamDesignator87=R86
-Variation60=Designator=CLIP8|UniqueId=\YQRJPEFU\SOPWVTGQ|Kind=1|AlternatePart= 
-Variation61=Designator=CLIP9|UniqueId=\YQRJPEFU\SLPNLPFQ|Kind=1|AlternatePart= 
-Variation62=Designator=CLIP10|UniqueId=\YQRJPEFU\LLLWDRNC|Kind=1|AlternatePart= 
-Variation63=Designator=CLIP11|UniqueId=\YQRJPEFU\FKTBKFIG|Kind=1|AlternatePart= 
-Variation64=Designator=CLIP12|UniqueId=\YQRJPEFU\OGIJHSVR|Kind=1|AlternatePart= 
-Variation65=Designator=CLIP13|UniqueId=\YQRJPEFU\QMKMJSKV|Kind=1|AlternatePart= 
-Variation66=Designator=CLIP14|UniqueId=\YQRJPEFU\FPYWXMYD|Kind=1|AlternatePart= 
-Variation67=Designator=CLIP15|UniqueId=\YQRJPEFU\WIMPEKDT|Kind=1|AlternatePart= 
-Variation68=Designator=CLIP16|UniqueId=\YQRJPEFU\QFPGKAQZ|Kind=1|AlternatePart= 
-Variation69=Designator=CLIP17|UniqueId=\YQRJPEFU\QVJWGZUL|Kind=1|AlternatePart= 
-Variation70=Designator=CLIP18|UniqueId=\YQRJPEFU\VGHVAPYZ|Kind=1|AlternatePart= 
-Variation71=Designator=CLIP1|UniqueId=\YQRJPEFU\WUDIOZIZ|Kind=1|AlternatePart= 
-Variation72=Designator=CLIP2|UniqueId=\YQRJPEFU\BQQWMUBM|Kind=1|AlternatePart= 
-Variation73=Designator=CLIP3|UniqueId=\YQRJPEFU\TQQILKJC|Kind=1|AlternatePart= 
-Variation74=Designator=CLIP4|UniqueId=\YQRJPEFU\LTCTMKWQ|Kind=1|AlternatePart= 
-Variation75=Designator=CLIP5|UniqueId=\YQRJPEFU\MXUZPBYD|Kind=1|AlternatePart= 
-Variation76=Designator=CLIP6|UniqueId=\YQRJPEFU\OODRJNHS|Kind=1|AlternatePart= 
-Variation77=Designator=CLIP7|UniqueId=\YQRJPEFU\PXWXYJBJ|Kind=1|AlternatePart= 
+Variation60=Designator=CLIP8|UniqueId=\YQRJPEFU\SOPWVTGQ|Kind=1|AlternatePart=
+Variation61=Designator=CLIP9|UniqueId=\YQRJPEFU\SLPNLPFQ|Kind=1|AlternatePart=
+Variation62=Designator=CLIP10|UniqueId=\YQRJPEFU\LLLWDRNC|Kind=1|AlternatePart=
+Variation63=Designator=CLIP11|UniqueId=\YQRJPEFU\FKTBKFIG|Kind=1|AlternatePart=
+Variation64=Designator=CLIP12|UniqueId=\YQRJPEFU\OGIJHSVR|Kind=1|AlternatePart=
+Variation65=Designator=CLIP13|UniqueId=\YQRJPEFU\QMKMJSKV|Kind=1|AlternatePart=
+Variation66=Designator=CLIP14|UniqueId=\YQRJPEFU\FPYWXMYD|Kind=1|AlternatePart=
+Variation67=Designator=CLIP15|UniqueId=\YQRJPEFU\WIMPEKDT|Kind=1|AlternatePart=
+Variation68=Designator=CLIP16|UniqueId=\YQRJPEFU\QFPGKAQZ|Kind=1|AlternatePart=
+Variation69=Designator=CLIP17|UniqueId=\YQRJPEFU\QVJWGZUL|Kind=1|AlternatePart=
+Variation70=Designator=CLIP18|UniqueId=\YQRJPEFU\VGHVAPYZ|Kind=1|AlternatePart=
+Variation71=Designator=CLIP1|UniqueId=\YQRJPEFU\WUDIOZIZ|Kind=1|AlternatePart=
+Variation72=Designator=CLIP2|UniqueId=\YQRJPEFU\BQQWMUBM|Kind=1|AlternatePart=
+Variation73=Designator=CLIP3|UniqueId=\YQRJPEFU\TQQILKJC|Kind=1|AlternatePart=
+Variation74=Designator=CLIP4|UniqueId=\YQRJPEFU\LTCTMKWQ|Kind=1|AlternatePart=
+Variation75=Designator=CLIP5|UniqueId=\YQRJPEFU\MXUZPBYD|Kind=1|AlternatePart=
+Variation76=Designator=CLIP6|UniqueId=\YQRJPEFU\OODRJNHS|Kind=1|AlternatePart=
+Variation77=Designator=CLIP7|UniqueId=\YQRJPEFU\PXWXYJBJ|Kind=1|AlternatePart=
 Variation78=Designator=T_IC3|UniqueId=\HFXIRERH\KPYDFDDI|Kind=1|AlternatePart==Device
 ParamVariation88=ParameterName=Comment|VariantValue==Device
 ParamDesignator88=T_IC3
@@ -723,7 +741,7 @@ ParamDesignator89=T_IC5
 Variation80=Designator=IC23|UniqueId=\TAKSADSN\OLLEWBBF\KVLIINHU|Kind=1|AlternatePart==Device
 ParamVariation90=ParameterName=Comment|VariantValue==Device
 ParamDesignator90=IC23
-Variation81=Designator=IC24|UniqueId=\TAKSADSN\OLLEWBBF\FTNZIOKC|Kind=1|AlternatePart= 
+Variation81=Designator=IC24|UniqueId=\TAKSADSN\OLLEWBBF\FTNZIOKC|Kind=1|AlternatePart=
 Variation82=Designator=IC30|UniqueId=\TAKSADSN\OLLEWBBF\XLTHUPJY|Kind=1|AlternatePart==Device
 ParamVariation91=ParameterName=Comment|VariantValue==Device
 ParamDesignator91=IC30
@@ -742,7 +760,7 @@ ParamDesignator95=C75
 ParamVariationCount=95
 
 [ProjectVariant2]
-UniqueID=9B67D6B0-16CF-46F1-A082-28F39AAF0D0C
+UniqueId=9B67D6B0-16CF-46F1-A082-28F39AAF0D0C
 Description=DIOT
 AllowFabrication=0
 ParameterCount=0
@@ -831,24 +849,24 @@ ParamDesignator27=R56
 Variation28=Designator=R86|UniqueId=\LBNIEXTI\RMGTSDLV|Kind=1|AlternatePart==Value
 ParamVariation28=ParameterName=Comment|VariantValue==Value
 ParamDesignator28=R86
-Variation29=Designator=CLIP8|UniqueId=\YQRJPEFU\SOPWVTGQ|Kind=1|AlternatePart= 
-Variation30=Designator=CLIP9|UniqueId=\YQRJPEFU\SLPNLPFQ|Kind=1|AlternatePart= 
-Variation31=Designator=CLIP10|UniqueId=\YQRJPEFU\LLLWDRNC|Kind=1|AlternatePart= 
-Variation32=Designator=CLIP11|UniqueId=\YQRJPEFU\FKTBKFIG|Kind=1|AlternatePart= 
-Variation33=Designator=CLIP12|UniqueId=\YQRJPEFU\OGIJHSVR|Kind=1|AlternatePart= 
-Variation34=Designator=CLIP13|UniqueId=\YQRJPEFU\QMKMJSKV|Kind=1|AlternatePart= 
-Variation35=Designator=CLIP14|UniqueId=\YQRJPEFU\FPYWXMYD|Kind=1|AlternatePart= 
-Variation36=Designator=CLIP15|UniqueId=\YQRJPEFU\WIMPEKDT|Kind=1|AlternatePart= 
-Variation37=Designator=CLIP16|UniqueId=\YQRJPEFU\QFPGKAQZ|Kind=1|AlternatePart= 
-Variation38=Designator=CLIP17|UniqueId=\YQRJPEFU\QVJWGZUL|Kind=1|AlternatePart= 
-Variation39=Designator=CLIP18|UniqueId=\YQRJPEFU\VGHVAPYZ|Kind=1|AlternatePart= 
-Variation40=Designator=CLIP1|UniqueId=\YQRJPEFU\WUDIOZIZ|Kind=1|AlternatePart= 
-Variation41=Designator=CLIP2|UniqueId=\YQRJPEFU\BQQWMUBM|Kind=1|AlternatePart= 
-Variation42=Designator=CLIP3|UniqueId=\YQRJPEFU\TQQILKJC|Kind=1|AlternatePart= 
-Variation43=Designator=CLIP4|UniqueId=\YQRJPEFU\LTCTMKWQ|Kind=1|AlternatePart= 
-Variation44=Designator=CLIP5|UniqueId=\YQRJPEFU\MXUZPBYD|Kind=1|AlternatePart= 
-Variation45=Designator=CLIP6|UniqueId=\YQRJPEFU\OODRJNHS|Kind=1|AlternatePart= 
-Variation46=Designator=CLIP7|UniqueId=\YQRJPEFU\PXWXYJBJ|Kind=1|AlternatePart= 
+Variation29=Designator=CLIP8|UniqueId=\YQRJPEFU\SOPWVTGQ|Kind=1|AlternatePart=
+Variation30=Designator=CLIP9|UniqueId=\YQRJPEFU\SLPNLPFQ|Kind=1|AlternatePart=
+Variation31=Designator=CLIP10|UniqueId=\YQRJPEFU\LLLWDRNC|Kind=1|AlternatePart=
+Variation32=Designator=CLIP11|UniqueId=\YQRJPEFU\FKTBKFIG|Kind=1|AlternatePart=
+Variation33=Designator=CLIP12|UniqueId=\YQRJPEFU\OGIJHSVR|Kind=1|AlternatePart=
+Variation34=Designator=CLIP13|UniqueId=\YQRJPEFU\QMKMJSKV|Kind=1|AlternatePart=
+Variation35=Designator=CLIP14|UniqueId=\YQRJPEFU\FPYWXMYD|Kind=1|AlternatePart=
+Variation36=Designator=CLIP15|UniqueId=\YQRJPEFU\WIMPEKDT|Kind=1|AlternatePart=
+Variation37=Designator=CLIP16|UniqueId=\YQRJPEFU\QFPGKAQZ|Kind=1|AlternatePart=
+Variation38=Designator=CLIP17|UniqueId=\YQRJPEFU\QVJWGZUL|Kind=1|AlternatePart=
+Variation39=Designator=CLIP18|UniqueId=\YQRJPEFU\VGHVAPYZ|Kind=1|AlternatePart=
+Variation40=Designator=CLIP1|UniqueId=\YQRJPEFU\WUDIOZIZ|Kind=1|AlternatePart=
+Variation41=Designator=CLIP2|UniqueId=\YQRJPEFU\BQQWMUBM|Kind=1|AlternatePart=
+Variation42=Designator=CLIP3|UniqueId=\YQRJPEFU\TQQILKJC|Kind=1|AlternatePart=
+Variation43=Designator=CLIP4|UniqueId=\YQRJPEFU\LTCTMKWQ|Kind=1|AlternatePart=
+Variation44=Designator=CLIP5|UniqueId=\YQRJPEFU\MXUZPBYD|Kind=1|AlternatePart=
+Variation45=Designator=CLIP6|UniqueId=\YQRJPEFU\OODRJNHS|Kind=1|AlternatePart=
+Variation46=Designator=CLIP7|UniqueId=\YQRJPEFU\PXWXYJBJ|Kind=1|AlternatePart=
 Variation47=Designator=T_IC3|UniqueId=\HFXIRERH\KPYDFDDI|Kind=1|AlternatePart==Device
 ParamVariation29=ParameterName=Comment|VariantValue==Device
 ParamDesignator29=T_IC3
@@ -858,7 +876,7 @@ ParamDesignator30=T_IC5
 Variation49=Designator=IC23|UniqueId=\TAKSADSN\OLLEWBBF\KVLIINHU|Kind=1|AlternatePart==Device
 ParamVariation31=ParameterName=Comment|VariantValue==Device
 ParamDesignator31=IC23
-Variation50=Designator=IC24|UniqueId=\TAKSADSN\OLLEWBBF\FTNZIOKC|Kind=1|AlternatePart= 
+Variation50=Designator=IC24|UniqueId=\TAKSADSN\OLLEWBBF\FTNZIOKC|Kind=1|AlternatePart=
 Variation51=Designator=IC30|UniqueId=\TAKSADSN\OLLEWBBF\XLTHUPJY|Kind=1|AlternatePart==Device
 ParamVariation32=ParameterName=Comment|VariantValue==Device
 ParamDesignator32=IC30
@@ -881,24 +899,32 @@ DocumentPath=Project Outputs for Sampler\Design Rule Check - Sampler_DIOT.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=P_author1
-Value=Grzegorz Kasprowicz
+Name=P_version
+Value=2.3.1
 
 [Parameter2]
-Name=P_author2
-Value=Łukasz Pająk
+Name=P_template_version
+Value=1.4
 
 [Parameter3]
-Name=P_author3
-Value=Krzysztof Belewicz
+Name=P_release_reviewers
+Value=Marcin Kiepiela (TS), Marta Fąfara (TS)
 
 [Parameter4]
+Name=P_release_owner
+Value=Krzysztof Belewicz (ISE WUT)
+
+[Parameter5]
+Name=P_release_designers
+Value=Krzysztof Belewicz (ISE WUT), Grzegorz Kasprowicz (ISE WUT), Łukasz Pająk (ISE WUT)
+
+[Parameter6]
 Name=P_github_link
 Value=https://github.com/sinara-hw/Sampler
 
-[Parameter5]
-Name=P_version
-Value=2.3.1
+[Parameter7]
+Name=P_copyright_owner
+Value=WUT ISE 2024-2025 · Technosystem 2025-2026
 
 [Configuration1]
 Name=Sources
@@ -1025,12 +1051,22 @@ OutputName20=PADS ASCII Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=HP LaserJet Professional P1102
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1129,6 +1165,36 @@ OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Harness Layout Drawing Print
+OutputName9=Harness Layout Drawing Prints
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Harness Wiring Diagram Print
+OutputName10=Harness Wiring Diagram Prints
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PCBDrawing
+OutputName11=Draftsman
+OutputDocumentPath11=
+OutputVariantName11=[No Variations]
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType12=PDF3D
+OutputName12=PDF3D
+OutputDocumentPath12=
+OutputVariantName12=[No Variations]
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType13=PDF3D MBA
+OutputName13=PDF3D MBA
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1151,6 +1217,11 @@ OutputName3=Test Point Report
 OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -1220,6 +1291,11 @@ OutputName11=Test Point Report
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=IPC2581
+OutputName12=IPC-2581 Files
+OutputDocumentPath12=
+OutputVariantName12=[No Variations]
+OutputDefault12=0
 
 [OutputGroup6]
 Name=Report Outputs
@@ -1281,6 +1357,17 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=BOM_ReportManufacturing
+OutputName9=Manufacturing Data
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+OutputType10=Project History
+OutputName10=Project History
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1293,102 +1380,6 @@ OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType2=Text Print
-OutputName2=Text Print
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Text Print
-OutputName3=Text Print
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Text Print
-OutputName4=Text Print
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Text Print
-OutputName5=Text Print
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType6=Text Print
-OutputName6=Text Print
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType7=Text Print
-OutputName7=Text Print
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=Text Print
-OutputName8=Text Print
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Text Print
-OutputName9=Text Print
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=Text Print
-OutputName10=Text Print
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Text Print
-OutputName11=Text Print
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Text Print
-OutputName12=Text Print
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Text Print
-OutputName13=Text Print
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=Text Print
-OutputName14=Text Print
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType15=Text Print
-OutputName15=Text Print
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType16=Text Print
-OutputName16=Text Print
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType17=Text Print
-OutputName17=Text Print
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -1494,6 +1485,11 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
+OutputType12=Web ReviewOutputName
+OutputName12=Web Review Data
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1626,6 +1622,58 @@ Type116=1
 Type117=1
 Type118=1
 Type119=1
+Type120=1
+Type121=1
+Type122=1
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=1
+Type129=1
+Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
+Type137=1
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
+Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
+Type159=1
+Type160=1
+Type161=1
+Type162=1
+Type163=1
+Type164=1
+Type165=1
+Type166=1
+Type167=1
+Type168=1
+Type169=1
+Type170=1
+Type171=1
 
 [Difference Levels]
 Type1=1
@@ -1696,6 +1744,33 @@ Type65=1
 Type66=1
 Type67=1
 Type68=0
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+Type88=1
+Type89=1
+Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1824,6 +1899,45 @@ Type123=1
 Type124=1
 Type125=1
 Type126=1
+Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
+Type152=1
+Type153=1
+Type154=0
+Type155=0
+Type156=0
+Type157=0
+Type158=0
+Type159=0
+Type160=0
+Type161=0
+Type162=1
+Type163=1
+Type164=1
+Type165=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNNW
